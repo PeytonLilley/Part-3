@@ -27,7 +27,7 @@ public class Dispenser : MonoBehaviour
         
     }
 
-    void OnTriggerEnter2D()
+    protected virtual void OnTriggerEnter2D()
     {
         Debug.Log("button");
         buttonPress.SetBool("button", true);

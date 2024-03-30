@@ -155,7 +155,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2461400676923919010}
-  - component: {fileID: 3760485429352701720}
   - component: {fileID: 1180155764782839838}
   - component: {fileID: 1732351495096017351}
   - component: {fileID: 3831806092827513765}
@@ -182,24 +181,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 3330422733724275008}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &3760485429352701720
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5459287710532985246}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f931a0889151d854a9b17c910cad5bdd, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  circle1: {fileID: 2709934998079993297, guid: 774e94a29fd818d41a30a6cde183e7da, type: 3}
-  circle2: {fileID: 2223402311191037616, guid: 3108b4118594e9a4cacb512f60818bc9, type: 3}
-  circle3: {fileID: 8049514454262142721, guid: 92c57f3c260751b44af236cda9b55a0e, type: 3}
-  tCircle1: {fileID: 2135038587805880993}
-  tCircle2: {fileID: 6651411860198334506}
-  tCircle3: {fileID: 5504995035151671815}
 --- !u!212 &1180155764782839838
 SpriteRenderer:
   m_ObjectHideFlags: 0
