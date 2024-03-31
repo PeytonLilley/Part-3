@@ -1,6 +1,8 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using TMPro;
+using UnityEngine.UI;
 
 public class Player : MonoBehaviour
 {
@@ -10,9 +12,12 @@ public class Player : MonoBehaviour
     bool walk;
     float moveX;
     float moveY;
-    public float keys = 0;
-    public float gems = 0;
-    public float hearts = 0;
+    float keys = 0;
+    float gems = 0;
+    float hearts = 0;
+    public TextMeshProUGUI keyInventory;
+    public TextMeshProUGUI gemInventory;
+    public TextMeshProUGUI heartInventory;
 
     // Start is called before the first frame update
     void Start()
@@ -57,5 +62,9 @@ public class Player : MonoBehaviour
         {
             hearts = hearts + 1;
         }
+
+        keyInventory.text = keys.ToString();
+        gemInventory.text = gems.ToString();
+        heartInventory.text = hearts.ToString();
     }
 }
